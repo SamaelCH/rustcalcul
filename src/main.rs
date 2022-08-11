@@ -1,3 +1,5 @@
+use colored::*;
+
 fn main() {
-    println!("Hello, world!");
+    println!("Hello, world! {}", "BLUE".red());
 }
