@@ -6,6 +6,8 @@
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
+Para instalar en otras plataformas visita rustup.rs
+
 comprobar instalacion
 ```
 rustc --version
