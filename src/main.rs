@@ -137,7 +137,7 @@ fn main() {
             io::stdout().flush().unwrap();
             io::stdin().read_line(&mut input).unwrap();
             let mut dis = input.trim().parse::<f32>().unwrap();
-            println!("Ingrese el tiempo que le tomo al objeto recorrer la distancia");
+            println!("Ingrese el tiempo que le tomo al objeto recorrer la distancia (en segundos)");
             io::stdout().flush().unwrap();
             input = String::from("");
             io::stdin().read_line(&mut input).unwrap();
